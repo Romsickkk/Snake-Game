@@ -148,9 +148,9 @@ function drowGame() {
         clearInterval(game);
         clearAllMusics();
         pointSound(loseSound, firstAudio);
+        openPopup();
         startLowSoundMusic(gameOver);
-        startFirstMusic(gameOver);
-        startLowSoundMusic(gameOver);
+        // startLowSoundMusic(gameOver);
         backgroundColor.style.backgroundColor = "#FF0000";
       }
     }
